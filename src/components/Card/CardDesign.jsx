@@ -15,7 +15,7 @@ const CardDesign = ({data}) => {
             <p className="text-[#3D7793]">{profession}</p>
             <p>{description}</p>
             <img className="m-auto p-2" src="../../images/Frame 45.png" alt="" />
-            <button onClick={()=>navigate(`${id}`)}>
+            <button onClick={()=>navigate(`/cards/${id}`)}>
             <Button text="View Profile  "/>
 
             </button>
